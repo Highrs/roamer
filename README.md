@@ -1,2 +1,2 @@
-# roamer
-Roam around. Don't die.
+# senseless
+Enjoy the view.

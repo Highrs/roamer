@@ -29,12 +29,14 @@ const mkRndr = (place) => {
 };
 
 const main = () => {
+  console.log('Giant alien spiders are no joke.');
+
   let renderMain = mkRndr('content');
   let drawMap = () => {
     return getSvg({w:getPageWidth() - 10, h:getPageHeight() - 10 , i:'allTheStuff'}).concat([
       ['defs'],
       ['g', {id: 'main'}],
-      ['g', {id: 'player'}]
+      ['g', {id: 'craft'}]
     ]);
   };
   renderMain(drawMap());
